@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
                     <div className="mb-8 md:mb-0">
-                        <h2 className="text-2xl font-bold text-blue-500">Vexella Pharmaceutical</h2>
+                        <h2 className="text-2xl font-bold text-blue-500">Vexella Pharmaceutical Pvt Ltd</h2>
                         <p className="mt-2 text-gray-400">Your health , Our commitment</p>
                     </div>
 

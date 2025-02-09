@@ -4,11 +4,11 @@ import logo from '../assets/hero-image.jpg'
 const Home = () => {
   return (
     <>
-      <section id='home' className="bg-white">
+      <section id='home' className="bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center min-h-[85vh] justify-center">
   
           <div className="lg:w-1/2 text-center lg:text-left my-5">
-            <p className="text-gray-500 text-lg font-medium mb-2">Vexella Pharmaceuticals</p>
+            <p className="text-gray-500 text-lg font-medium mb-2">Vexella Pharmaceuticals Pvt Ltd</p>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
               Your <span className="text-blue-500">Health</span>, Our Commitment
             </h1>
@@ -20,7 +20,7 @@ const Home = () => {
               href="#product"
               className="inline-block bg-blue-500 text-white font-semibold py-3 px-6 rounded-md hover:bg-blue-600 transition"
             >
-              Products 
+              Products <span>→</span>
             </a>
           </div>
 
@@ -29,7 +29,7 @@ const Home = () => {
             <img
               src={logo}
               alt="Hero Image"
-              className="w-full max-w-md lg:max-w-lg rounded-2xl"
+              className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105"
             />
           </div>
         </div>

@@ -19,6 +19,7 @@ const Navbar = () => {
         
         <div className="hidden md:flex space-x-8">
           <a href="#home" className="text-gray-700 hover:text-blue-500">Home</a>
+          <a href="#about" className="text-gray-700 hover:text-blue-500">About</a>
           <a href="#product" className="text-gray-700 hover:text-blue-500">Product</a>
         </div>
         {/* <div></div> */}
@@ -61,6 +62,7 @@ const Navbar = () => {
         <div className="md:hidden bg-white shadow-md">
           <div className="flex flex-col space-y-2 p-4">
             <a href="#home" className="text-gray-700 hover:text-blue-500">Home</a>
+            <a href="#About" className="text-gray-700 hover:text-blue-500">About</a>
             <a href="#product" className="text-gray-700 hover:text-blue-500">Product</a>
           </div>
         </div>
