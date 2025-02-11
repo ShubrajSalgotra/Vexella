@@ -1,5 +1,5 @@
 import Image1 from '../assets/hero-image.jpg'
-import CALIVEX from '../assets/img/calivex.png'
+import CALIVEX from '../assets/img/CALIVEX.png'
 import NERVEX from '../assets/img/NERVEX.png'
 import NERVEX25 from '../assets/img/NERVEX25.png'
 import RABIVEXD from '../assets/img/RABIVEXD.png'
