@@ -1,11 +1,11 @@
 import Image1 from '../assets/hero-image.jpg'
-import CALIVEX from '../assets/img/CALIVEX.png'
-import NERVEX from '../assets/img/NERVEX.png'
-import NERVEX25 from '../assets/img/NERVEX25.png'
-import RABIVEXD from '../assets/img/RABIVEXD.png'
-import VEXEZONE from '../assets/img/VEXEZONE.png'
-import VEXOFIT from '../assets/img/VEXOFIT.png'
-import VEXQ from '../assets/img/VEXQ.png'
+import CALIVEX from '../assets/img/CALIVEX.webp'
+import NERVEX from '../assets/img/NERVEX.webp'
+import NERVEX25 from '../assets/img/NERVEX25.webp'
+import RABIVEXD from '../assets/img/RABIVEXD.webp'
+import VEXEZONE from '../assets/img/VEXEZONE.webp'
+import VEXOFIT from '../assets/img/VEXOFIT.webp'
+import VEXQ from '../assets/img/VEXQ.webp'
 
 export const products = [
   {
