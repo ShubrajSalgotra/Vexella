@@ -3,6 +3,7 @@ import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import Products from "./components/Product"
+import ProductList from "./components/ProductList"
 
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
     <>
     <Navbar/>
     <Home/>
+    <ProductList/>
     <About/>
-    <Products/>
+    {/* <Products/> */}
     <Footer/>
     </>
   )

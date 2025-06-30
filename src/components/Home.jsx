@@ -13,7 +13,7 @@ const Home = () => {
               Your <span className="text-blue-500">Health</span>, Our Commitment
             </h1>
             <p className="text-gray-600 text-base mb-6">
-              Vexella Pharmaceutical combines innovative research with ethical practices to develop effective, accessible medications.
+              Vexella Pharmaceuticals combines innovative research with ethical practices to develop effective, accessible medications.
               Our commitment to honest science and patient care drives us to create treatments that truly improve lives
             </p>
             <a

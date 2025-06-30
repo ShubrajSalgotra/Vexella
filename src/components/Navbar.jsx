@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="sticky top-0 bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
         
-        <div className="text-2xl font-bold text-blue-600">Vexella Pharmaceutical</div>
+        <div className="text-2xl font-bold text-blue-600">Vexella Pharmaceuticals</div>
         {/* <div>
           <img
             src={logo}

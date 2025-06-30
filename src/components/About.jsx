@@ -8,7 +8,7 @@ const About = () => {
                 <div className="grid grid-cols-1">
                     <div className="space-y-6">
                         <p className="text-gray-600 text-lg leading-relaxed">
-                            Vexella Pharmaceuticals Pvt Ltd is a leading Wholesale Supplier of General Medicines, Pharmaceutical Medicines, Medical Tablets, etc. These Pharmaceutical Tablets comprise an exact composition of active ingredients that ensures a high level of effectiveness as well as purity. These medicines are highly recommended and prescribed by doctors for treating various ailments.
+                            Vexella Pharmaceuticals Pvt Ltd is a Pvt limited company of General Medicines, Pharmaceutical Medicines, Medical Tablets, etc. These Pharmaceutical Tablets comprise an exact composition of active ingredients that ensures a high level of effectiveness as well as purity. These medicines are highly recommended and prescribed by doctors for treating various ailments.
                         </p>
                         <p className="text-gray-600 text-lg leading-relaxed">
                             Pharmaceutical Medicines include nutritional supplements & vitamins, iron compounds, enzymes, haemostatics, anti-allergens, anti-virals, and muscle relaxants. Our Pharmaceutical Medicines conform to international standards of quality and are sourced from carefully selected vendors.
