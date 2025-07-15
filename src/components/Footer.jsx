@@ -19,10 +19,10 @@ const Footer = () => {
                             <span className="font-semibold text-white">Administrative Address: </span>
                             Plot 84/7A , Talab Tillo ,  Bohri , Jammu   180002
                         </div>
-                        <div>
+                        {/* <div>
                             <span className="font-semibold text-white">Phone: </span>
                             +91 7895108392, +91 7895108392
-                        </div>
+                        </div> */}
                         <div>
                             <span className="font-semibold text-white">Email: </span>
                             vexellapharmaceuticals@gmail.com 
