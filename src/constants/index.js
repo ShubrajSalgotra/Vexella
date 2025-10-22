@@ -6,6 +6,11 @@ import RABIVEXD from '../assets/img/RABIVEXD.webp'
 import VEXEZONE from '../assets/img/VEXEZONE.webp'
 import VEXOFIT from '../assets/img/VEXOFIT.webp'
 import VEXQ from '../assets/img/VEXQ.webp'
+import MEROVEX from '../assets/img/MEROVEX.webp'
+import RABIVEX from '../assets/img/RABIVEX.webp'
+import VEXEPENEM from '../assets/img/VEXEPENEM.webp'
+import VEXOTUS from '../assets/img/VEXOTUS.webp'
+import TAZOVEX from '../assets/img/TAZOVEX.webp'
 
 export const products = [
 
@@ -13,14 +18,14 @@ export const products = [
     id: 1,
     name: 'MEROVEX 1.5',
     type: 'Injection',
-    image: Image1,
+    image: MEROVEX,
     composition: 'Meropenem 1000 Mg + Sulbactum 500 Mg',
   },
   {
     id: 2,
     name: 'VEXOTUS',
     type: 'Syrup',
-    image: Image1,
+    image: VEXOTUS,
     composition: 'Each 5 ML Dextramethorphan 10 Mg + Phenylephrine 5 Mg + CPM 2 Mg',
   },
   // {
@@ -98,7 +103,7 @@ export const products = [
     id: 14,
     name: 'RABIVEX-LS',
     type: 'SR Capsules',
-    image: Image1,
+    image: RABIVEX,
     composition: 'Rabeprazole 20 Mg + Levosulpiride 75 Mg SR',
   },
   {
@@ -119,7 +124,7 @@ export const products = [
     id: 17,
     name: 'Vexepenem 1GM ',
     type: 'Injection',
-    image: Image1,
+    image: VEXEPENEM,
     composition: 'Meropenem 1 GM',
   },
   {
@@ -141,7 +146,7 @@ export const productList = [
   {
     id: 2,
     name: "MEROVEX 1.5 injection",
-    image: Image1,
+    image: MEROVEX,
     composition: "Meropenem 1000 Mg + Sulbactum 500 Mg"
   },
   {
@@ -159,13 +164,13 @@ export const productList = [
   {
     id: 5,
     name: "TAZOVEX 4.5 injection",
-    image: Image1,
+    image: TAZOVEX,
     composition: "Piperacillin 4000 Mg + Tazobactum 500 Mg"
   },
   {
     id: 6,
     name: "RABIVEX LS Cap",
-    image: Image1,
+    image: RABIVEX,
     composition: "Rabeprazole 20 Mg + Levosulpiride 75 Mg SR"
   },
   {
@@ -177,82 +182,86 @@ export const productList = [
   {
     id: 8,
     name: "VEX - Q10 Cap",
-    image: Image1,
+    image: VEXQ,
     composition: "Co Enzyme Q10, 100 Mg + Omega 3 Fatty Acid 150 Mg + Lycopene+ L Carnitine + A to Z Multivitamins + Antioxidants"
   },
   {
     id: 9,
-    name: "VEX- GOLD Cap",
-    image: Image1,
-    composition: "Omega 3 Fatty Acid + A to Z Multivitamins +  Antioxidants"
-  },
-  {
-    id: 10,
     name: "CALIVEX D3 Tablets",
     image: CALIVEX,
     composition: "Calcium Citrate 1000 Mg +  Magnesium 100 Mg + Vitamin D3 200IU + Zinic 4 Mg"
   },
   {
+    id: 10,
+    name: "VEXOTUS SYP 100 ML & 60 ML",
+    image: VEXOTUS,
+    composition: "Each 5 ML Dextramethorphan 10 Mg + Phenylephrine 5 Mg + CPM 2 Mg"
+  },
+  {
     id: 11,
+    name: "VEXOFIT Drops 30 ML",
+    image: VEXOFIT,
+    composition: "Multivitamins+ Antioxidants With DHA & Zinc"
+  },
+  {
+    id: 12,
+    name: "VEXEPENEM 1GM",
+    image: VEXEPENEM,
+    composition: "Meropenem 1000 Mg"
+  },
+  {
+    id: 13,
+    name: "VEX- GOLD Cap",
+    image: Image1,
+    composition: "Omega 3 Fatty Acid + A to Z Multivitamins +  Antioxidants"
+  },
+
+  {
+    id: 14,
     name: "VEXETAZ 4.5 injection",
     image: Image1,
     composition: "Piperacillin 4000 Mg + Tazobactum 500 Mg"
   },
 
+
   {
-    id: 12,
-    name: "VEXOTUS SYP 100 ML & 60 ML",
-    image: Image1,
-    composition: "Each 5 ML Dextramethorphan 10 Mg + Phenylephrine 5 Mg + CPM 2 Mg"
-  },
-  {
-    id: 13,
+    id: 15,
     name: "VEX- COF Syrup 100 ML & 60 ML",
     image: Image1,
     composition: "Each 5 ML, Terbutaline 1.25 Mg + Ambroxol Hydrochloride 15 Mg + Guaphenesine 50 Mg + Menthol 1 Mg"
   },
   {
-    id: 14,
+    id: 16,
     name: "GABAVEX-NT 400 Tablet",
     image: Image1,
     composition: "Gabapenten 400 Mg + Nortripline 10 Mg"
   },
   {
-    id: 15,
+    id: 17,
     name: "VEXOFIT Syrup  200 ML  & 100 ML",
     image: Image1,
     composition: "Multivitamins+ Antioxidants with DHA"
   },
+
   {
-    id: 16,
-    name: "VEXOFIT Drops 30 ML",
-    image: Image1,
-    composition: "Multivitamins+ Antioxidants With DHA & Zinc"
-  },
-  {
-    id: 17,
+    id: 18,
     name: "BUTACEF I GM injection",
     image: Image1,
     composition: "Ceftriaxone Sodium 1 GM"
   },
   {
-    id: 18,
+    id: 19,
     name: "CYPOVEX Syrup 200 ML",
     image: Image1,
     composition: "Cyproheptadine, tricholine citrate and sorbitol"
   },
   {
-    id: 19,
+    id: 20,
     name: "ACECLOVEX- SP",
     image: Image1,
     composition: "Aceclofenic+ Paracetamol+ Serrotiopeptidase"
   },
-  {
-    id: 20,
-    name: "ACECLOVEX- TH Tablet",
-    image: Image1,
-    composition: "Thiocolchicoside + aceclofenac + paracetamol"
-  },
+
   {
     id: 21,
     name: "NERVEX -P Cap",
@@ -294,5 +303,12 @@ export const productList = [
     name: "ESOVEX-D Cap",
     image: Image1,
     composition: "Esomeprazole + Domperidone"
+  },
+  {
+    id: 20,
+    name: "ACECLOVEX- TH Tablet",
+    image: Image1,
+    composition: "Thiocolchicoside + aceclofenac + paracetamol"
   }
+
 ];
