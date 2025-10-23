@@ -11,6 +11,11 @@ import RABIVEX from '../assets/img/RABIVEX.webp'
 import VEXEPENEM from '../assets/img/VEXEPENEM.webp'
 import VEXOTUS from '../assets/img/VEXOTUS.webp'
 import TAZOVEX from '../assets/img/TAZOVEX.webp'
+import BUTACEF from '../assets/img/BUTACEF.webp'
+import VEXCOF from '../assets/img/VEXCOF.webp'
+import VEXETEZ from '../assets/img/VEXETEZ.webp'
+import VEXGOLD from '../assets/img/VEXGOLD.webp'
+import VEXOFITS from '../assets/img/VEXOFITS.webp'
 
 export const products = [
 
@@ -117,7 +122,7 @@ export const products = [
     id: 16,
     name: 'VEX-GOLD',
     type: 'Capsules',
-    image: Image1,
+    image: VEXGOLD,
     composition: 'Omega 3 Fatty Acid + A to Z Multivitamins +  Antioxidants',
   },
   {
@@ -212,14 +217,14 @@ export const productList = [
   {
     id: 13,
     name: "VEX- GOLD Cap",
-    image: Image1,
+    image: VEXGOLD,
     composition: "Omega 3 Fatty Acid + A to Z Multivitamins +  Antioxidants"
   },
 
   {
     id: 14,
     name: "VEXETAZ 4.5 injection",
-    image: Image1,
+    image: VEXETEZ,
     composition: "Piperacillin 4000 Mg + Tazobactum 500 Mg"
   },
 
@@ -227,33 +232,34 @@ export const productList = [
   {
     id: 15,
     name: "VEX- COF Syrup 100 ML & 60 ML",
-    image: Image1,
+    image: VEXCOF,
     composition: "Each 5 ML, Terbutaline 1.25 Mg + Ambroxol Hydrochloride 15 Mg + Guaphenesine 50 Mg + Menthol 1 Mg"
   },
+
   {
     id: 16,
-    name: "GABAVEX-NT 400 Tablet",
-    image: Image1,
-    composition: "Gabapenten 400 Mg + Nortripline 10 Mg"
-  },
-  {
-    id: 17,
     name: "VEXOFIT Syrup  200 ML  & 100 ML",
-    image: Image1,
+    image: VEXOFITS,
     composition: "Multivitamins+ Antioxidants with DHA"
   },
 
   {
-    id: 18,
-    name: "BUTACEF I GM injection",
-    image: Image1,
+    id: 17,
+    name: "BUTACEF 1 GM injection",
+    image: BUTACEF,
     composition: "Ceftriaxone Sodium 1 GM"
   },
   {
-    id: 19,
+    id: 18,
     name: "CYPOVEX Syrup 200 ML",
     image: Image1,
     composition: "Cyproheptadine, tricholine citrate and sorbitol"
+  },
+  {
+    id: 19,
+    name: "GABAVEX-NT 400 Tablet",
+    image: Image1,
+    composition: "Gabapenten 400 Mg + Nortripline 10 Mg"
   },
   {
     id: 20,

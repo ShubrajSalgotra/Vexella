@@ -31,12 +31,12 @@ const Footer = () => {
           <div className="space-y-3 md:justify-self-end">
             <h4 className="text-sm font-semibold text-slate-300">Contact</h4>
 
-            <address className="not-italic text-slate-300">
+            <address className="not-italic text-red-300">
               <span className="font-medium text-slate-100">Address:</span>{" "}
               A/401, Raj Anmol 2, L.M Road, Borivali (W), Mumbai — 400103
             </address>
 
-            <address className="not-italic text-slate-300">
+            <address className="not-italic text-red-300">
               <span className="font-medium text-slate-100">Administrative:</span>{" "}
               Plot 84/7A, Talab Tillo, Bohri, Jammu — 180002
             </address>
