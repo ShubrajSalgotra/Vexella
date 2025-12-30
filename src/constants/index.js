@@ -16,6 +16,10 @@ import VEXCOF from '../assets/img/VEXCOF.webp'
 import VEXETEZ from '../assets/img/VEXETEZ.webp'
 import VEXGOLD from '../assets/img/VEXGOLD.webp'
 import VEXOFITS from '../assets/img/VEXOFITS.webp'
+import FAROVAX from '../assets/img/FAROVAX.webp'
+import RIFAVAX from '../assets/img/RIFAVAX.webp'
+import CALIVEXPLUS from '../assets/img/CALIVEXPLUS.webp'
+import VEXOGUT from '../assets/img/VEXOGUT.webp'
 
 export const products = [
 
@@ -250,6 +254,30 @@ export const productList = [
     composition: "Ceftriaxone Sodium 1 GM"
   },
   {
+    id: 29,
+    name: "VEXOGUT",
+    image: VEXOGUT,
+    composition: "Bourlardii 250 mg"
+  }, 
+  {
+    id: 30,
+    name: "CALIVEX PLUS",
+    image: CALIVEXPLUS,
+    composition: "Calcitrol + Calcium Citrate Malate + Methylcobalamin + Vitamin K2-7"
+  },
+  {
+    id: 31,
+    name: "RIFAVAX 400",
+    image: RIFAVAX,
+    composition: ""
+  },
+  {
+    id: 32,
+    name: "FAROVAX 300",
+    image: FAROVAX,
+    composition: "Faropenem Sodium Tablets 300mg"
+  },
+  {
     id: 18,
     name: "CYPOVEX Syrup 200 ML",
     image: Image1,
@@ -311,7 +339,7 @@ export const productList = [
     composition: "Esomeprazole + Domperidone"
   },
   {
-    id: 20,
+    id: 28,
     name: "ACECLOVEX- TH Tablet",
     image: Image1,
     composition: "Thiocolchicoside + aceclofenac + paracetamol"
